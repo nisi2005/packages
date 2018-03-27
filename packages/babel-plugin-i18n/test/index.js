@@ -7,7 +7,7 @@ import traverse from 'babel-traverse';
 /**
  * Internal dependencies
  */
-import babelPlugin from '../babel-plugin';
+import babelPlugin from '../src';
 
 describe( 'babel-plugin', () => {
 	const {

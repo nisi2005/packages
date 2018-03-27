@@ -25,13 +25,7 @@ Note that you will not need to specify [domain](https://codex.wordpress.org/I18n
 
 ## Build
 
-Included is a [custom Babel plugin](./tools/babel-plugin.js) which, when integrated into a Babel configuration, will scan all processed JavaScript files for use of localization functions. It then compiles these into a [gettext POT formatted](https://en.wikipedia.org/wiki/Gettext) file as a template for translation. By default the output file will be written to `gettext.pot` of the root project directory. This can be overridden using the `"output"` option of the plugin:
-
-```json
-[ "babel-plugin-wp-i18n", {
-	"output": "languages/myplugin.pot"
-} ]
-```
+You can use the [WordPress i18n babel plugin](../babel-plugin-i18n/README.md) to generate a `.pot` file containing all your localized strings.
 
 The package also includes a `pot-to-php` script used to generate a php files containing the messages listed in a `.pot` file. This is usefull to trick WordPress.org translation strings discovery since at the moment, WordPress.org is not capable of parsing strings directly from JavaScript files.
 
