@@ -1,5 +1,5 @@
 {
-	"name": "@wordpress/babel-plugin-i18n",
+	"name": "@wordpress/babel-plugin-makepot",
 	"version": "1.0.0-beta.0",
 	"description": "WordPress Babel i18n Plugin",
 	"author": "WordPress",
@@ -9,7 +9,7 @@
 		"babel",
 		"plugin"
 	],
-	"homepage": "https://github.com/WordPress/packages/tree/master/packages/babel-plugin-i18n/README.md",
+	"homepage": "https://github.com/WordPress/packages/tree/master/packages/babel-plugin-makepot/README.md",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/WordPress/packages.git"

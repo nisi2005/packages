@@ -44,7 +44,7 @@ const { writeFileSync } = require( 'fs' );
  */
 const DEFAULT_HEADERS = {
 	'content-type': 'text/plain; charset=UTF-8',
-	'x-generator': 'babel-plugin-wp-i18n',
+	'x-generator': 'babel-plugin-makepot',
 };
 
 /**
