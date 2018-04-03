@@ -25,5 +25,8 @@
 		"jed": "^1.1.1",
 		"lodash": "^4.17.5",
 		"memize": "^1.0.5"
+	},
+	"bin": {
+		"pot-to-php" : "./tools/pot-to-php.js"
 	}
 }

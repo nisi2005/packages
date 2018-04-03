@@ -30,7 +30,7 @@ You can use the [WordPress i18n babel plugin](../babel-plugin-makepot/README.md)
 The package also includes a `pot-to-php` script used to generate a php files containing the messages listed in a `.pot` file. This is useful to trick WordPress.org translation strings discovery since at the moment, WordPress.org is not capable of parsing strings directly from JavaScript files.
 
 ```sh
-node tools/pot-to-php languages/myplugin.pot languages/myplugin-translations.php text-domain
+npx pot-to-php languages/myplugin.pot languages/myplugin-translations.php text-domain
 ```
 
 ## API
